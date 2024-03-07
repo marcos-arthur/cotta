@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Cotta behavior pack",
+    "description": "ARE YOU READY TO BREAK THE COTTA????",
+    "uuid": "9dcd5f5c-8e4c-493b-b5eb-19eca6916d8f",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 20, 30]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "e2e4b8da-ef4e-44df-855c-227e11d1d725",
+      "version": [0, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.5.0"
+    }
+  ]
+}
